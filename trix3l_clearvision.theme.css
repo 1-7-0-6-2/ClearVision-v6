@@ -1,0 +1,256 @@
+/**
+ * @name trix3l's ClearVision
+ * @author ClearVision Team & trix3l
+ * @version 6.1.1
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.gitlab.io
+ * @invite dHaSxn3
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Verdana:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.gitlab.io/v6/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+
+:root {
+  --main-color: #E70076;
+  --hover-color: #52001C;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  --url-color: var(--main-color);
+  --background-image: url('https://i.imgur.com/xQpYMIC.gif');
+  --background-shading: 100%;
+  --background-position: Bottom center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgb(0,0,0,0.45);
+  --user-popout-image: url('https://i.imgur.com/1ucuZeU.gif');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 153%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 2px;
+  --user-modal-image: url('https://i.imgur.com/xQpYMIC.gif');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 124%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 1px;
+  --home-icon: url(https://clearvision.gitlab.io/icons/discord.svg);
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: Verdana;
+  --code-font: Verdana;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+  --background-primary: #36393f40;
+  --background-secondary: #2f313640;
+  --background-secondary-alt: #292b2f40;
+  --background-tertiary: #20222540;
+  --background-accent: #4f545c80;
+  --background-floating: #18191c60;
+  --background-nested-floating: #00000030;
+  --background-mobile-primary: #00000030;
+  --background-mobile-secondary: #2f3136;
+}
+
+/* Any custom CSS below here */
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB > svg {
+  background-image: linear-gradient(160deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 1s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 4px;
+    z-index: 1;
+}
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
+    background-image: linear-gradient(to left, rgb(32,64,192), var(--main-color), rgb(32,64,192));
+    animation: gradient-border 3s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    z-index: 1;
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  background-image: linear-gradient(160deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 14px;
+}
+.container-1oeRFJ .subText-OGOWMj > strong, .container-1oeRFJ .activityText-1rR-8O > strong {
+  background-image: linear-gradient(to left, rgb(32,64,192), var(--main-color), rgb(32,64,192));
+  animation: gradient-border 3s linear infinite;
+  background-size: 400% 100%;
+  color: transparent !important;
+  -webkit-background-clip: text;
+  position: relative;
+  z-index: 1;
+}
+.container-ZMc96U .children-3xh0VB .icon-2xnN2Y {
+  background-image: linear-gradient(90deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s linear infinite;
+  background-size: 400% 100%;
+  color: white!important;
+  -webkit-background-clip: area-box;
+  position: relative;
+  z-index: 1;
+}
+.numberBadge-37OJ3S {
+  background-image: linear-gradient(to left, rgb(32,64,192), var(--main-color), rgb(32,64,192));
+  animation: gradient-border 3s linear infinite;
+  background-size: 400% 100%;
+  color: whitesmoke!important;
+  -webkit-background-clip: text;
+  position: relative;
+  z-index: 1;
+}
+.bd-switch .bd-switch-symbol path {
+    fill: var(--main-color);
+    transition: 250ms cubic-bezier(0,.3,.7,1);
+}
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ:after {
+    right: 0;
+  background-image: linear-gradient(140deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    -webkit-animation: cv-channel-select .3s ease-in-out;
+    animation: gradient-border 2s linear infinite;
+  background-size: 400% 100%;
+}
+.menu-1QACrS .item-1OdjEX.focused-3qFvc8 {
+    right: 0;
+  background-image: linear-gradient(140deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    transition: all .15s ease-in-out;
+    animation: gradient-border 2s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after {
+    right: 0;
+  background-image: linear-gradient(140deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after {
+    right: 0;
+  background-image: linear-gradient(140deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s ease-in-out infinite;
+  background-size: 400% 100%;  
+}
+.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+  background-image: linear-gradient(90deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s linear infinite;
+  background-size: 400% 100%;
+}
+.item-2LIpTv {
+  background-image: linear-gradient(90deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+.numberBadge-37OJ3S, .textBadge-1fdDPJ {
+  background-image: linear-gradient(90deg, rgb(32,64,192), var(--main-color),  rgb(32,64,192));
+    animation: gradient-border 2s ease-in-out infinite;
+  background-size: 400% 100%;
+  box-shadow: 0 0 10px -3px var(--background-secondary),0 0 0 1px var(--background-secondary);
+}
+.appMount-2yBXZl .lookFilled-yCfaCM.colorGreen-3y-Z79, .appMount-2yBXZl .lookFilled-yCfaCM.colorGrey-2iAG-B, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrand-I6CyqQ, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-g5lmBU, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .appMount-2yBXZl .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  background-image: linear-gradient(90deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s linear infinite;
+  background-size: 400% 100%;
+}
+.bd-controls>.bd-addon-button:first-of-type {
+    background-image: linear-gradient(90deg, rgb(32,64,192) 0%, rgb(16,32,96) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s linear infinite;
+  background-size: 400% 100%;
+}
+.bd-controls>.bd-addon-button:last-of-type {
+    background-image: linear-gradient(90deg, var(--hover-color) 0%, var(--main-color) 50%,  var(--hover-color) 100%);
+    animation: gradient-border 2s linear infinite;
+  background-size: 400% 100%;  
+}
+.bd-switch input:checked+.bd-switch-body {
+  background-image: linear-gradient(90deg, rgb(32,64,192) 0%, var(--main-color) 50%,  rgb(32,64,192) 100%);
+    animation: gradient-border 2s linear infinite;
+  background-size: 400% 100%;
+}
+.streamerModeEnabledBtn-2nlJTD {
+  background-image: linear-gradient(150deg, #593695 0%, #320f6d 50%,  #593695 100%);
+    animation: gradient-border 1s linear infinite;
+    background-size: 400% 100%;
+}
+.content-3spvdd {
+    background-image: linear-gradient(to left, rgb(32,64,192), var(--main-color), rgb(32,64,192));
+    animation: gradient-border 3s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+}
